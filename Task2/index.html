@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Filter with TailwindCSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 p-10">
+    <div class="max-w-lg mx-auto bg-white p-6 rounded-lg shadow-lg">
+      <h2 class="text-2xl font-bold mb-4 text-center">
+        Search Filter Component
+      </h2>
+
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Enter your query here..."
+        class="w-full p-3 mb-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-300 outline-none transition duration-300"
+      />
+
+      <ul id="itemList" class="space-y-2">
+        <li class="p-4 bg-gray-200 rounded-lg shadow-md item">Apple</li>
+        <li class="p-4 bg-gray-200 rounded-lg shadow-md item">Banana</li>
+        <li class="p-4 bg-gray-200 rounded-lg shadow-md item">Cherry</li>
+        <li class="p-4 bg-gray-200 rounded-lg shadow-md item">Mango</li>
+        <li class="p-4 bg-gray-200 rounded-lg shadow-md item">Litchi</li>
+        <li class="p-4 bg-gray-200 rounded-lg shadow-md item">Orange</li>
+        <li class="p-4 bg-gray-200 rounded-lg shadow-md item">Grape</li>
+        <li class="p-4 bg-gray-200 rounded-lg shadow-md item">Pineapple</li>
+        <li class="p-4 bg-gray-200 rounded-lg shadow-md item">Pineapple</li>
+      </ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Simple Accordion Component</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 p-10">
+    <h2 class="text-2xl font-bold mb-6">Accordion Demonstration</h2>
+
+    <button
+      class="accordion w-full bg-gray-200 text-gray-700 cursor-pointer p-4 text-left rounded-lg mb-2 hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 transition duration-300"
+    >
+      Accordion 1
+    </button>
+    <div class="content p-4 bg-white rounded-lg shadow-lg mb-2 hidden">
+      <p>This is the content that belongs to the accordion1.</p>
+    </div>
+
+    <button
+      class="accordion w-full bg-gray-200 text-gray-700 cursor-pointer p-4 text-left rounded-lg mb-2 hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 transition duration-300"
+    >
+      Accordion 2
+    </button>
+    <div class="content p-4 bg-white rounded-lg shadow-lg mb-2 hidden">
+      <p>This is the content that belongs to the accordion2.</p>
+    </div>
+
+    <button
+      class="accordion w-full bg-gray-200 text-gray-700 cursor-pointer p-4 text-left rounded-lg mb-2 hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 transition duration-300"
+    >
+      Accordion 3
+    </button>
+    <div class="content p-4 bg-white rounded-lg shadow-lg mb-2 hidden">
+      <p>This is the content that belongs to the accordion3.</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
